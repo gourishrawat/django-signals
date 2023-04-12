@@ -1,0 +1,6 @@
+<p>Are you sure you want to delete "{{model.name}}"?</p>
+<form method="post">
+    {%csrf_token%}
+    <button type="submit">yes, delete it</button>
+    </form>
+    <a href="/">cancle</a>
